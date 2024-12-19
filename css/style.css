@@ -1,0 +1,460 @@
+/*all common css starts*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/*all common css ends*/
+
+/*all header part css starts*/
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    z-index: 10;
+}
+.nav-link{
+   padding: 0px 30px !important;
+   font-size: 18px;
+   color: white;
+}
+.freeBTn{
+    padding: 10px 15px;
+    color: black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+   
+
+/*all header part css ends*/
+
+
+/*Banner Part CSS Starts*/
+#bannerPart{
+    padding-top: 180px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/Bg-1.png);
+    position: relative;
+    overflow: hidden;
+}
+.imageOne{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 55%;
+    height: 100%;
+}
+.imageOne img{
+    height: 100%;
+    object-fit: cover;
+}
+.bannerText h3 {
+    line-height: 74px;
+    font-size: 49px;
+    font-weight: 700;
+}
+.bannerText h5{
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+.bannerBtn{
+    text-align: center;
+}
+.bannerText a {
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #FD5F36;
+    margin-top: 41px;
+
+}
+.bannerText h6{
+    margin-top: 30px;
+}
+.bannerText span{
+    color: aqua;
+}
+.bannerText img{
+    margin-top: 30px;
+}
+/*Banner Part CSS Ends*/
+
+/*Welcome Part CSS Starts*/
+#welcomePart{
+    padding: 120px 0;
+    color: #fff;
+}
+.welcomeRight h6{
+    color: black;
+   font-size: 20px;
+   color: #FD5F36;
+}
+.welcomeRight h3{
+    color: #30344E;
+    line-height: 62px;
+    font-size: 48px;
+    margin-top: 10px;
+}
+.welcomeRight h6{
+    line-height: 32px;
+    font-size: 18px;
+    color: #5B5F77;
+    margin-top: 10px;
+}
+.welcomeRight p{
+    color: black;
+}
+.welcomeRight ul{
+    color: #5B5F77;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 32px;
+}
+.welcomeRight a {
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #FD5F36;
+    margin-top: 40px;
+}
+/*Welcome Part CSS Ends*/
+
+
+/*Service Part CSS Starts*/
+#servicePart{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    background-color: #FAFAFA;
+    
+}
+.serviceLeft h5{
+    color: #FD5F36;
+}
+.serviceLeft h3{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 62px;
+    margin-top: 13px;
+}
+.paraOne{
+    margin-top: 60px;
+    background-color: #FFFFFF;
+}
+.serviceText h3{
+    line-height: 28px;
+    font-size: 16px;
+    color: #30344E;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.serviceText p{
+    line-height: 26px;
+    font-size: 16px;
+    color: #5B5F77;
+    font-weight: normal;
+    margin-top: 20px;
+}
+/*Service Part CSS Ends*/
+
+
+
+/*Reliable Part CSS Starts*/
+#reliablePart{
+    padding-top: 126px;
+    padding-bottom: 141px;
+    color: white;
+}
+.leftPart h3{
+    color: black;
+    font-weight: 700;
+    line-height: 62px;
+    font-size: 48px;
+}
+.leftPart p{
+    color: #5B5F77;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.leftPart a {
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #FD5F36;
+    margin-top: 40px;
+}
+
+.investmentLeft h3{
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 24px;
+    color: #30344E;
+    margin-top: 50px;
+  
+}
+.investmentLeft p{
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 20px;
+    color: #30344E;
+    margin-top: 15px;
+    
+}
+/*Reliable Part CSS Ends*/
+
+/*Team Part Starts*/
+#teamPart{
+    background: url(../images/BG.png);
+    padding-top: 60px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.teamH{
+    position: relative;
+}
+.teamText h6{
+    
+    font-size: 20px;
+    color: #FD5F36;
+}
+.teamText h3{
+    line-height: 62px;
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.fourImg img {
+    position: absolute;
+    top: 107px;
+    left: 193px;
+}
+/*Team Part Ends*/
+
+/*StartUp Part Starts*/
+#startUpPart{
+    padding-top: 350px;
+    padding-bottom: 100px;
+}
+.StartUpText h3{
+    font-weight: 700;
+    line-height: 62px;
+    font-size: 44px;
+    color: #30344E;
+}
+/*StartUp Part Ends*/
+
+/*Trusted Part CSS Starts*/
+#trustedBanner{
+    background: url(../images/trustedBg.png);
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.trustedLeft h3{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 54px;
+    color: #fff;
+}
+.trustedLeft a{
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #FD5F36;
+    margin-top: 40px;
+}
+.counterIteam h3{
+    font-weight: 700;
+    font-size: 50px;
+    color: #151515;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+/*Trsuted part CSS Ends*/
+
+/*Customer Review Part Starts*/
+#reviewPart{
+    padding-top: 113px;
+    padding-bottom: 135px;
+    background-color: #FAFAFA;
+}
+.heading h3{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #30344E;
+}
+.leftSide{
+    background-color: #FFFFFF;
+    padding-top: 53px;
+    padding-bottom: 140px;
+    position: relative;
+}
+.leftSide p{
+    line-height: 46px;
+    font-size: 24px;
+    color: #6C6E81;
+}
+.fulimg{
+    margin-top: 20px;
+}
+.fulimg img{
+    position: absolute;
+}
+.rightPart{
+    text-align: right;
+}
+/*Customer Review Part Ends*/
+
+/*Latest Part Starts*/
+#latestPart{
+    padding: 130px 0px;
+    color: #fff;
+}
+.updatePart h3{
+    color: #30344E;
+    margin-top: 15px;
+}
+.updatePart h6{
+    color: #FD5F36;
+    
+}
+.juicePart{
+    margin-top: 80px;
+}
+.juiceText h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3F3C5C;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    line-height: 34px;
+}
+.juiceText p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #737373;
+    color: #575470;
+}
+.profilePart{
+    display: flex;
+}
+.leftProfile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.leftProfile h5{
+    color: #9C9BA9;
+    line-height: 26px;
+    font-size: 16px;
+}
+.rightTime {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.rightTime i{
+    color: #9C9BA9;
+}
+.rightTime h6{
+    color: #9C9BA9;
+    font-size: 16px;
+    line-height: 26px;
+}
+/*Latest Part Ends*/
+
+
+/*End Part Starts*/
+#endPart{
+    padding-top: 106px;
+    padding-bottom: 30px;
+    background-color: #30344E;
+}
+.endFirstRow p{
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.endsecondRow h6{
+    color: #52C5B6;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+.endsecondRow ul li{
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.endthirdRow h6{
+    color: #52C5B6;
+}
+.endthirdRow ul li{
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.endFourthRow h6{
+    color: #52C5B6;
+}
+.endFourthRow ul li{
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.endLastRow h6{
+    color: #52C5B6;
+}
+.endLastRow p{
+    color: #FFFFFF;
+    margin-top: 20px;
+    line-height: 26px;
+   font-size: 16px;
+}
+/*Ends Part Ends*/
+
+
+
+.back-to-top{
+    position: fixed;
+    right: 20px;
+    left: 20px;
+}
+
+.back-to-top i{
+    font-size: 45px;
+    color: red;
+}
